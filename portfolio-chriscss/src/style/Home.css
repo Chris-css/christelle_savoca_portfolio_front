@@ -6,6 +6,9 @@
     margin-top: 2rem;
 }
 
+/*
+Partie infos persos
+*/
 .profile-box {
     display: flex;
     align-items: center;
@@ -18,18 +21,20 @@
     border-radius: 150px 0px 150px 0;
 }
 
-.availableandscroll-box {
-    display: flex;
-}
-
+/*
+Partie disponible pour un job
+*/
 .available-box {
     display: flex;
     width: 80%;
 }
 
+/*
+Partie Scroll down
+*/
 .scroll_conteneur {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-end;
     width: 20%;
 }
@@ -59,6 +64,9 @@
     transform: rotate(180deg) translateY(-20px);
 }
 
+/*
+Partie infos
+*/
 .info-box {
     display: flex;
     
@@ -72,6 +80,26 @@
     width: 50%;
 }
 
+/*
+Partie technologies
+*/
+.skills-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icon-box {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+}
+
+/*
+Partie téléchargement CV
+*/
 .cv-box {
     display: flex;
     width: max-content;

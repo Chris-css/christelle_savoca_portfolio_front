@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import Skills from "./Skills";
+import PortfolioButton from "./PortfolioButton";
 import photoJpg from "../../src/images/portraitchris.jpg";
 
 import "../style/Home.css";
@@ -32,7 +33,6 @@ const Home = () => {
                             alt={developper.firstname}
                         />
                     </div>
-                    <div className="availableandscroll-box">
                         <div className="available-box">
                             {developper.available ? (
                                 <p>
@@ -43,10 +43,6 @@ const Home = () => {
                                 ""
                             )}
                         </div>
-                        <div className="scroll_conteneur">
-                            <span className="scroll">Scroll down</span>
-                        </div>
-                    </div>
 
                     <div className="info-box">
                         <div className="info-box-1">
@@ -59,12 +55,17 @@ const Home = () => {
                             <p>Front-end and back-end developement.</p>
                             <p>Responsive Design.</p>
                         </div>
+                        <div className="scroll_conteneur">
+                            <span className="scroll">Scroll down</span>
+                        </div>
                     </div>
+                    <h2>Skills</h2>
                     <Skills />
                     <Link to={developper.cv} className="cv-box">
                         <h5>Download my curriculum vitae (Pdf)</h5>
                         <i className="fas fa-download"></i>
                     </Link>
+                    < PortfolioButton />
                 </>
             ))}
         </div>
