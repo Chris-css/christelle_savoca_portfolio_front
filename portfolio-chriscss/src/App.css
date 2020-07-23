@@ -1,7 +1,4 @@
-.App {
-  text-align: center;
-}
-
-.App-link {
+.App a {
+  text-decoration: none;
   color: #DF6A7D;
 }
