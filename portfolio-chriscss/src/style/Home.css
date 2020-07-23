@@ -1,0 +1,85 @@
+.home-box {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2rem;
+}
+
+.profile-box {
+    display: flex;
+    align-items: center;
+    
+}
+
+.photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px 0px 150px 0;
+}
+
+.availableandscroll-box {
+    display: flex;
+}
+
+.available-box {
+    display: flex;
+    width: 80%;
+}
+
+.scroll_conteneur {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 20%;
+}
+
+.scroll {
+    font-size: .75rem;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    display: flex;
+    align-items: center;
+}
+
+.scroll::before {
+    content: "";
+    width: 21px;
+    height: 24px;
+    margin-bottom: 35px;
+    background-image: url(../images/scroll.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+    transition: transform .3s;
+}
+
+.scroll:hover::before {
+    transform: rotate(180deg) translateY(-20px);
+}
+
+.info-box {
+    display: flex;
+    
+}
+
+.info-box-1 {
+    width: 50%;
+}
+
+.info-box-2 {
+    width: 50%;
+}
+
+.cv-box {
+    display: flex;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .cv-box i {
+    margin-left: 1rem;
+  }

@@ -1,3 +1,6 @@
+/*
+Version bureau
+*/
 .App a {
   text-decoration: none;
   color: #DF6A7D;
@@ -46,6 +49,9 @@
   font-weight: 400;
 }
 
+/*
+Version mobile
+*/
 @media screen and (max-width: 450px) {
   .App a {
     font-size: 12px;
