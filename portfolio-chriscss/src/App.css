@@ -1,4 +1,84 @@
 .App a {
   text-decoration: none;
   color: #DF6A7D;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.App h1 {
+  font-size: 150px;
+  font-weight: 900;
+  margin: 0;
+  color: black;
+  text-shadow:
+    -1px -1px 0 #FFF,
+     0   -1px 0 #FFF,
+     1px -1px 0 #FFF,
+     1px  0   0 #FFF,
+     1px  1px 0 #FFF,
+     0    1px 0 #FFF,
+    -1px  1px 0 #FFF,
+    -1px  0   0 #FFF;
+}
+
+.App h2 {
+  font-size: 64px;
+  font-weight: 900;
+}
+
+.App h3 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.App h4 {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.App h5 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.App p {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 450px) {
+  .App a {
+    font-size: 12px;
+    font-weight: 900;
+  }
+  
+  .App h1 {
+    font-size: 48px;
+    font-weight: 900;
+  }
+  
+  .App h2 {
+    font-size: 28px;
+    font-weight: 900;
+  }
+  
+  .App h3 {
+    font-size: 24px;
+    font-weight: 900;
+  }
+
+  .App h4 {
+    font-size: 12px;
+    font-weight: 900;
+  }
+  
+  .App h5 {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  
+  .App p {
+    font-size: 18px;
+    font-weight: 400;
+  }
 }
