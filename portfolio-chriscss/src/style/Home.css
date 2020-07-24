@@ -1,0 +1,175 @@
+.home-box {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2rem;
+}
+
+a {
+    color: #df6a7d;
+}
+
+/*
+Partie infos persos
+*/
+.profile-box {
+    display: flex;
+    align-items: center;
+}
+
+.photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px 0px 150px 0;
+}
+
+/*
+Partie disponible pour un job
+*/
+.available-box {
+    display: flex;
+    width: 80%;
+}
+
+/*
+Partie Scroll down
+*/
+.scroll_conteneur {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 4%;
+}
+
+.scroll {
+    font-size: 0.75rem;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    display: flex;
+    align-items: center;
+}
+
+.scroll::before {
+    content: "";
+    width: 21px;
+    height: 24px;
+    margin-bottom: 35px;
+    background-image: url(../images/scroll.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+    transition: transform 0.3s;
+}
+
+.scroll:hover::before {
+    transform: rotate(180deg) translateY(-25px);
+}
+
+/*
+Partie infos
+*/
+.info-box {
+    display: flex;
+}
+
+.info-box-1 {
+    width: 48%;
+}
+
+.info-box-2 {
+    width: 48%;
+}
+
+/*
+Partie technologies
+*/
+.skills-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icon-box {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+    width: 90px;
+}
+
+.icon {
+    width: 100%;
+    object-fit: contain;
+}
+
+/*
+Partie téléchargement CV
+*/
+.cv-box {
+    display: flex;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.cv-box i {
+    margin-left: 1rem;
+}
+
+/*
+Version mobile
+*/
+@media screen and (max-width: 450px) {
+    .profile-box {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .home-box {
+        margin: inherit;
+        width: 100vw;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+
+    .photo {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .available-box {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .info-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-box-1 {
+        width: 100%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .info-box-2 {
+        width: 100%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .scroll_conteneur {
+        display: none;
+    }
+
+    .title {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
