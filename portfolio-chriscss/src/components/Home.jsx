@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import NavBar from "./NavBar";
+import Footer from "./Footer";
+
 import axios from "axios";
 import Skills from "./Skills";
 import PortfolioButton from "./PortfolioButton";
@@ -18,6 +21,8 @@ const Home = () => {
     }, []);
 
     return (
+        <>
+        <NavBar />
         <div className="home-box">
             {developpers.map((developper) => (
                 <>
@@ -75,6 +80,8 @@ const Home = () => {
                 </>
             ))}
         </div>
+        <Footer />
+        </>
     );
 };
 

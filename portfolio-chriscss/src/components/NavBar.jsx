@@ -15,7 +15,7 @@ function NavBar() {
             </Link>
             <div className="navbar-menu">
             <Link to="/">available for hire</Link>
-            <Link to="/">
+            <Link to="/burger">
                 <div className="menu-icon-box">
                     <i className="fas fa-bars"></i>
                 </div>
