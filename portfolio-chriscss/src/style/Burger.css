@@ -1,7 +1,29 @@
 /*
 Barre de navigation menu burger open
 */
+.navbarburger {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.navbarburger-logo {
+    width: 70px;
+    margin-left: 2rem;
+}
+
+.burger-icon-box {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+}
 
 /*
 Liens du menu cliquables
@@ -11,7 +33,7 @@ Liens du menu cliquables
     flex-direction: column;
     margin-left: 20%;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     justify-content: space-evenly;
 }
 
