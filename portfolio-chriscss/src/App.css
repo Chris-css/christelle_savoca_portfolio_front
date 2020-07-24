@@ -61,11 +61,6 @@ Version mobile
     width: 100vw;
   }
   
-  .App a {
-    font-size: 12px;
-    font-weight: 900;
-  }
-  
   .App h1 {
     font-size: 48px;
     font-weight: 900;
@@ -83,6 +78,7 @@ Version mobile
     font-weight: 900;
     margin-left: 2rem;
     margin-right: 2rem;
+    text-align: center;
   }
 
   .App h4 {
