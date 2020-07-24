@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import logoSvg from "../logo.svg";
 import "../style/Burger.css";
 
@@ -8,17 +10,18 @@ const NavBarBurger = () => {
             <Link to="/">
                 <img
                     src={logoSvg}
-                    className="navbar-logo"
+                    className="navbarburger-logo"
                     alt="logo Chris-css"
                 />
             </Link>
 
             <Link to="/">
                 <div className="burger-icon-box">
-                    <i className="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
                 </div>
             </Link>
-
         </nav>
-    )
-}
+    );
+};
+
+export default NavBarBurger;
