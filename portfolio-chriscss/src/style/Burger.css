@@ -1,3 +1,11 @@
+/*
+Barre de navigation menu burger open
+*/
+
+
+/*
+Liens du menu cliquables
+*/
 .burger {
     display: flex;
     flex-direction: column;
