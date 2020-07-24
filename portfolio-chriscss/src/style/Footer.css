@@ -2,6 +2,7 @@
     background-color: #fff;
     color: #000;
     display: flex;
+    width: 100%;
 }
 
 .footer-one {
@@ -45,4 +46,13 @@
 
 .footer a {
     color: #000;
+}
+
+/*
+Version mobile
+*/
+@media screen and (max-width: 450px) {
+    .footer-three {
+        margin-right: 0;
+    }
 }

@@ -1,3 +1,4 @@
+
 /*
 Version bureau
 */
@@ -56,6 +57,10 @@ Version bureau
 Version mobile
 */
 @media screen and (max-width: 450px) {
+  .App {
+    width: 100vw;
+  }
+  
   .App a {
     font-size: 12px;
     font-weight: 900;
@@ -64,6 +69,8 @@ Version mobile
   .App h1 {
     font-size: 48px;
     font-weight: 900;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   
   .App h2 {
@@ -74,6 +81,8 @@ Version mobile
   .App h3 {
     font-size: 24px;
     font-weight: 900;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   .App h4 {

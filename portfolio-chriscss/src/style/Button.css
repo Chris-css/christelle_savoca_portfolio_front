@@ -16,3 +16,14 @@
     border-radius: 80px 0 80px 0;
     border: none;
 }
+
+/*
+Version mobile
+*/
+@media screen and (max-width: 450px) {
+    .button {
+        width: 300px;
+        height: 60px;
+        font-size: 1rem;
+    }
+}

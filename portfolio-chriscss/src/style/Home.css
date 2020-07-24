@@ -7,7 +7,7 @@
 }
 
 a {
-    color: #DF6A7D;
+    color: #df6a7d;
 }
 
 /*
@@ -16,7 +16,6 @@ Partie infos persos
 .profile-box {
     display: flex;
     align-items: center;
-    
 }
 
 .photo {
@@ -44,7 +43,7 @@ Partie Scroll down
 }
 
 .scroll {
-    font-size: .75rem;
+    font-size: 0.75rem;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     display: flex;
@@ -61,7 +60,7 @@ Partie Scroll down
     background-repeat: no-repeat;
     background-position: center;
     transform: rotate(180deg);
-    transition: transform .3s;
+    transition: transform 0.3s;
 }
 
 .scroll:hover::before {
@@ -73,7 +72,6 @@ Partie infos
 */
 .info-box {
     display: flex;
-    
 }
 
 .info-box-1 {
@@ -116,8 +114,62 @@ Partie téléchargement CV
     align-items: center;
     justify-content: center;
     margin: auto;
-  }
-  
-  .cv-box i {
+}
+
+.cv-box i {
     margin-left: 1rem;
-  }
+}
+
+/*
+Version mobile
+*/
+@media screen and (max-width: 450px) {
+    .profile-box {
+        flex-wrap: wrap;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .home-box {
+        margin: inherit;
+        width: 100vw;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+
+    .photo {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .available-box {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .info-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-box-1 {
+        width: 100%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .info-box-2 {
+        width: 100%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .scroll_conteneur {
+        display: none;
+    }
+
+    .title {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}

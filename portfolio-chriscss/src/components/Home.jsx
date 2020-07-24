@@ -34,16 +34,16 @@ const Home = () => {
                             alt={developper.firstname}
                         />
                     </div>
-                        <div className="available-box">
-                            {developper.available ? (
-                                <p>
-                                    I’m looking for a job and I’m available in{" "}
-                                    {developper.availabledate}.
-                                </p>
-                            ) : (
-                                ""
-                            )}
-                        </div>
+                    <div className="available-box">
+                        {developper.available ? (
+                            <p>
+                                I’m looking for a job and I’m available in{" "}
+                                {developper.availabledate}.
+                            </p>
+                        ) : (
+                            ""
+                        )}
+                    </div>
 
                     <div className="info-box">
                         <div className="info-box-1">
@@ -57,10 +57,15 @@ const Home = () => {
                             <p>Responsive Design.</p>
                         </div>
                         <div className="scroll_conteneur">
-                            <a href="#info" className="scroll">Scroll down</a>
+                            <a href="#info" className="scroll">
+                                Scroll down
+                            </a>
                         </div>
                     </div>
-                    <h2>Skills</h2>
+                    <div className="title">
+                        <h2>Skills</h2>
+                    </div>
+
                     <Skills />
                     <Link to={cv} className="cv-box" target="_blank">
                         <h5>Download my curriculum vitae (Pdf)</h5>
