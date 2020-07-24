@@ -5,7 +5,7 @@ Version bureau
   text-decoration: none;
   color: #DF6A7D;
   font-size: 18px;
-  font-weight: 900;
+  font-weight: 400;
 }
 
 .App h1 {
@@ -22,6 +22,10 @@ Version bureau
      0    1px 0 #FFF,
     -1px  1px 0 #FFF,
     -1px  0   0 #FFF;
+}
+
+.App h1:hover {
+  color: white;
 }
 
 .App h2 {

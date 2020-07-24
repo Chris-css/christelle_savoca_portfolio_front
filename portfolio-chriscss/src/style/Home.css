@@ -61,7 +61,7 @@ Partie Scroll down
 }
 
 .scroll:hover::before {
-    transform: rotate(180deg) translateY(-20px);
+    transform: rotate(180deg) translateY(-25px);
 }
 
 /*
@@ -95,6 +95,12 @@ Partie technologies
     flex-direction: column;
     margin: 1rem;
     align-items: center;
+    width: 90px;
+}
+
+.icon {
+    width: 100%;
+    object-fit: contain;
 }
 
 /*

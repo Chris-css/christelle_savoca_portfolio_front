@@ -4,6 +4,7 @@ import axios from "axios";
 import Skills from "./Skills";
 import PortfolioButton from "./PortfolioButton";
 import photoJpg from "../../src/images/portraitchris.jpg";
+import cv from "../../src/images/Christelle_Savoca_Développeuse_React.pdf";
 
 import "../style/Home.css";
 
@@ -46,7 +47,7 @@ const Home = () => {
 
                     <div className="info-box">
                         <div className="info-box-1">
-                            <h2>What I love ?</h2>
+                            <h2 id="info">What I love ?</h2>
                             <p>Build home made and scalable code.</p>
                             <p>Learn new skills.</p>
                         </div>
@@ -56,16 +57,16 @@ const Home = () => {
                             <p>Responsive Design.</p>
                         </div>
                         <div className="scroll_conteneur">
-                            <span className="scroll">Scroll down</span>
+                            <a href="#info" className="scroll">Scroll down</a>
                         </div>
                     </div>
                     <h2>Skills</h2>
                     <Skills />
-                    <Link to={developper.cv} className="cv-box">
+                    <Link to={cv} className="cv-box" target="_blank">
                         <h5>Download my curriculum vitae (Pdf)</h5>
                         <i className="fas fa-download"></i>
                     </Link>
-                    < PortfolioButton />
+                    <PortfolioButton />
                 </>
             ))}
         </div>
