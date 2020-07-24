@@ -20,6 +20,7 @@
     align-items: center;
     justify-content: center;
     margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 .navbar-menu {
@@ -27,16 +28,14 @@
     width: 300px;
     height: 100px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 /*
 Version mobile
 */
 @media screen and (max-width: 450px) {
-    .navbar-menu {
-        width: 200px;
-    }
+    
 
     .menu-icon-box {
         margin-right: 0;
