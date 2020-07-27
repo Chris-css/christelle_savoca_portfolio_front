@@ -26,7 +26,7 @@ function NavBar() {
             {developpers.map((developper) => (
                 <>
                 {developper.available ? (
-            <Link to="/">available for hire</Link>
+            <Link to="/contact">available for hire</Link>
             ) : (
                             ""
                         )}

@@ -32,7 +32,6 @@ Liens du menu cliquables
     display: flex;
     flex-direction: column;
     margin-left: 20%;
-    width: 100vw;
     height: 90vh;
     justify-content: space-evenly;
 }

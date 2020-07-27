@@ -13,7 +13,7 @@ const Footer = () => {
                 <Link to="/">
                     <h5>Portfolio</h5>
                 </Link>
-                <Link to="/">
+                <Link to="/contact">
                     <h5>Contact</h5>
                 </Link>
                 <Link to="/">
@@ -24,17 +24,17 @@ const Footer = () => {
             <div className="footer-two">
                 <div>
                     <h4>Contact</h4>
-                    <Link to="/">
+                    <a href="mailto:christelle.savoca@gmail.com">
                         <h5>christelle.savoca@gmail.com</h5>
-                    </Link>
+                    </a>
                 </div>
                 <div className="footer-icon">
-                    <Link to="/">
+                    <a href="https://www.linkedin.com/in/christellesavoca/" target="_blank">
                         <i class="fab fa-linkedin-in"></i>
-                    </Link>
-                    <Link to="/">
+                    </a>
+                    <a href="https://github.com/Chris-css" target="_blank">
                         <i class="fab fa-github"></i>
-                    </Link>
+                    </a>
                 </div>
             </div>
             <div className="footer-three">
