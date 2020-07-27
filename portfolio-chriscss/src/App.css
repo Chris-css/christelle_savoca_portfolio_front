@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+
+/*
+Version bureau
+*/
+.App a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h1 {
+  font-size: 150px;
+  font-weight: 900;
+  margin: 0;
+  color: black;
+  text-shadow:
+    -1px -1px 0 #FFF,
+     0   -1px 0 #FFF,
+     1px -1px 0 #FFF,
+     1px  0   0 #FFF,
+     1px  1px 0 #FFF,
+     0    1px 0 #FFF,
+    -1px  1px 0 #FFF,
+    -1px  0   0 #FFF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.App h1:hover {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App h2 {
+  font-size: 64px;
+  font-weight: 400;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.App h3 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.App h4 {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.App h5 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.App p {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+/*
+Version mobile
+*/
+@media screen and (max-width: 450px) {
+  .App {
+    width: 100vw;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .App h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  
+  .App h2 {
+    font-size: 28px;
+    font-weight: 900;
+  }
+  
+  .App h3 {
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+  }
+
+  .App h4 {
+    font-size: 12px;
+    font-weight: 900;
+  }
+  
+  .App h5 {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  
+  .App p {
+    font-size: 18px;
+    font-weight: 400;
   }
 }

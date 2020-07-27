@@ -1,0 +1,57 @@
+.contact-box {
+    margin-left: 10%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.contact-title {
+    display: flex;
+    align-items: baseline;
+}
+
+.citrus-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 60% 0 60% 0;
+    margin-left: 2rem;
+    background-color: #000;
+    box-shadow: -1px -1px 0 #FFF, 0 -1px 0 #FFF, 1px -1px 0 #FFF, 1px 0 0 #FFF,
+    1px 1px 0 #FFF, 0 1px 0 #FFF, -1px 1px 0 #FFF, -1px 0 0 #FFF;
+}
+
+.citrus-icon:hover {
+    background-color: #FFF;
+    box-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000,
+        1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;   
+}
+
+.contact-link-box {
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.col-left {
+    width: 50%;
+    margin: 2rem;
+}
+
+.col-right {
+    width: 50%;
+    margin: 2rem;
+}
+
+.map {
+    width: 100%;
+    border-radius: 60% 0 60%;
+}
+
+.contact-icon i {
+    font-size: 4rem;
+    margin-right: 4rem;
+}
+
+.contact-map {
+    display: flex;
+    width: 80%;
+}

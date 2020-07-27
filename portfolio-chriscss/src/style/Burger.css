@@ -1,0 +1,56 @@
+/*
+Barre de navigation menu burger open
+*/
+.navbarburger {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarburger-logo {
+    width: 70px;
+    margin-left: 2rem;
+}
+
+.burger-icon-box {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+/*
+Liens du menu cliquables
+*/
+.burger {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    height: 90vh;
+    justify-content: space-evenly;
+}
+
+.burger-icon i {
+    font-size: 3rem;
+    margin-right: 3rem;
+}
+
+/*
+Version mobile
+*/
+@media screen and (max-width: 450px) {
+    .burger {
+        margin-left: 10%;
+    }
+
+    .contact-burger {
+        margin-left: 10%;
+    }
+    
+}
